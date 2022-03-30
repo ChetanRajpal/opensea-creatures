@@ -27,6 +27,8 @@ contract("Creature", accounts => {
           .then(name => {
               assert.equal(
               name,
+			  "Chetan Rajpal",
+			  "york u 22",
               "Creature",
               "name is not creature"
               );
